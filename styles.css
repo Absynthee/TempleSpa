@@ -56,6 +56,7 @@
 
   label {
     text-align: center;
+    font-size: 15px;
   }
 
   b {
@@ -81,6 +82,18 @@
   img {
     width: 100%;
   }
+
+  video {
+    width: 100%;
+  }
+
+  .tasks {
+    margin-bottom: -50px;
+}
+
+hr {
+    width: 100%;
+}
 
   .moodboard {
     display: flex;
@@ -154,6 +167,11 @@
     width: 100px;
   }
 
+  .product {
+    width: 400px;
+    align-self: center;
+  }
+
   @media screen and (max-width: 1000px) {
 
       .iconcontainer {
@@ -190,6 +208,10 @@
   
     p {
       font-size: 15px;
+    }
+
+    label {
+        font-size: 14px;
     }
 
     .moodboard {
